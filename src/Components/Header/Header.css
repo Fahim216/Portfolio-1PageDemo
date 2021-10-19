@@ -1,0 +1,125 @@
+#header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding:0 15px;
+    background: #362158;
+    overflow-y:auto;
+
+}
+#header h1:hover{
+    background: green;
+    margin-left: 10px;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+.profile-img{
+    margin: 15px auto;
+    display: block;
+    width: 150px;
+    border:5px solid #2c2f3f;
+}
+.profile-name{
+    font-size:24px;
+    margin: 0;
+    padding:0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins",sans-serif;
+    
+   
+}
+.social-links{
+    font-size:18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding:8px 0;
+    margin-right: 4px;
+    text-align: center;
+    border: 1px solid green;
+    margin-top: 5px;
+    transition:0.3;
+
+}
+.social-links a:hover{
+    background: #26cc10;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 80px;
+    border-bottom: 1px solid red;
+    
+    width: 36px;
+    height: 36px;
+}
+
+
+/* @media(max-width:1199px){
+    #header{
+        left:-300px;
+    }
+    
+} */
+@media(min-width:320px){
+    #header{
+
+    }
+}
+.nav-menu{
+    padding-top:30px;
+}
+.nav-menu *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav-menu >ul>li{
+    position: relative;
+    white-space: nowrap;
+}
+.nav-menu a{
+    display: flex;
+    text-decoration: none;
+    color: #a8a9b4;
+    padding:12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size:15px;
+
+}
+.nav-menu li:hover >a{
+    color: #149ddd;
+    border-bottom: 2px solid red;
+    width: 80px;
+    margin-bottom: 0px;
+
+
+}
+/* .mobile-nav-toggle{
+    position: fixed;
+    right:15px;
+    top:15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size:24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align:right;
+}
+.mobile-nav-active{
+    overflow: hidden;
+}
+.mobile-nav-active #header{
+left:0;
+} */
